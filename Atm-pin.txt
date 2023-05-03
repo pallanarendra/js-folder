@@ -1,0 +1,18 @@
+###ATM PIN GENERATION###
+
+
+function createPIN() {
+  let pin = "";
+  let valid = false;
+  while (!valid) {
+    pin = prompt("Please enter a four-digit PIN:");
+    if (pin.length === 4 && !isNaN(pin)) {
+      valid = true;
+      alert("sucessfully entered")
+    } else {
+      alert("Please enter a valid four-digit number.");
+    }
+  }
+  return pin;
+}
+createPIN()
