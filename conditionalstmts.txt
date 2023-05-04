@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        conditional statements; if
+                                else if
+                                else
+                                switch
+           example;
+           
+           var  abc= prompt("choose the day of week")
+           if (abc ==o )  
+                {alert ("this is Sunday")}
+           else if (abc==1)
+                {alert ("this is Mondday")}
+           else if (abc==2)
+                {alert ("this is tuesday")}
+           else if (abc==3)
+                {alert ("this is wednesday")}
+           else if (abc==4)
+                {alert ("this is thursday")}
+           else if (abc==5)
+                {alert ("this is friday")}
+          
+            else 
+                {alert ("this is saturday")}
+
+
+        switch example ;
+
+        let day = 
+        prompt ("choose the day of week");
+        switch (day) {
+        case 0:
+    
+            {alert ("this is sunday")}
+        console.log("sunday");
+        break;
+
+        case 1:
+    
+         {alert ("this is monday")}
+            console.log("monday");
+        break;
+        
+        case 2:
+        {alert ("this is tuesday")}
+            console.log("tuesday");
+        break;
+
+        case 3:
+        {alert ("this is wednesday")}
+            console.log("wednesday");
+        break;
+
+        case 4:
+        {alert ("this is thursday")}
+            console.log("thursday");
+        break;
+
+        case 5:
+        {alert ("this is friday")}
+            console.log("friday");
+        break;
+
+        case 6:
+             {alert("this is saturday")}
+             console.log("saturday");
+
+             default:
+                console.log( "please, enter a number to continue ");}
+
+    
+    </script>
+</body>
+</html>
