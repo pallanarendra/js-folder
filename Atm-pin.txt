@@ -16,3 +16,14 @@ function createPIN() {
   return pin;
 }
 createPIN()
+
+**Another Example***
+
+
+let a="1245";
+otp=
+prompt("enter value")
+if(otp==a)
+  {alert ("success")}
+else
+  {alert("fail")}
