@@ -1,0 +1,28 @@
+##function,switchcase with Operators###
+
+
+function name( p,q,r){
+let result
+
+switch (r)
+{
+case "+":
+  result= p+q
+  break;
+  case "-":
+  result=p-q
+  break;
+  case "%":
+  result=p%q
+  break;
+  case "*":
+  result=p*q
+  break;
+  case"/":
+ result= p/q
+  break;
+  default: result="Narendra"
+  }
+  return result
+
+}console.log(name(8,9,"*"))
